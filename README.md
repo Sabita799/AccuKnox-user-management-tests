@@ -1,3 +1,4 @@
+### Problem Statement 1
 OrangeHRM Admin User Management - Playwright E2E Automation
 
 Automated End-to-End (E2E) test suite for the OrangeHRM Admin User Management module, built using Playwright and JavaScript following the Page Object Model (POM) pattern.
@@ -54,3 +55,21 @@ The test suite validates 8 end-to-end scenarios sequentially:
 7. TC_UM_07: Delete the edited user.
 
 8. TC_UM_08: Verify the deleted user is no longer found in search results.
+
+### Problem Statement 2:
+
+Implemented two objectives using Python:
+
+- **Application Health Checker** – Checks application availability using HTTP status codes and detects UP/DOWN status with error handling.
+- **Log File Analyzer** – Analyzes web server logs to identify total requests, 404 errors, most requested pages, and top IP addresses.
+
+Project Setup & How to Run:
+
+1. Install Python 3.x.
+2. Install the required dependency:
+   `pip install requests`
+3. Open the `Problem Statement 2` folder in the terminal.
+4. Run the Application Health Checker:
+   `python application_health_checker.py`
+5. Run the Log File Analyzer:
+   `python log_analyzer.py`
